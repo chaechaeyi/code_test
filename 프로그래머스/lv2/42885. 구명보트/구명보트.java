@@ -7,7 +7,8 @@ class Solution {
         int min = 0;
 
         for (int max = people.length - 1; min <= max; max--){
-          if (people[min] + people[max] <= limit) min++;
+          if (people[min] + people[max] <= limit) 
+            min++;
           answer++;
         }
 
